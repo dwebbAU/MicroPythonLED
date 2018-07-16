@@ -4,7 +4,7 @@ pin = machine.Pin(2, machine.Pin.OUT)
 
 while True:
   pin.on()
-  time.sleep_ms(500)
+  time.sleep_ms(2000)
   pin.off()
-  time.sleep_ms(500)
+  time.sleep_ms(2000)
 
